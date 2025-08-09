@@ -45,3 +45,17 @@ conda activate stereo_yolo
 
 pip install -r requirements.txt
 ```
+## Execute
+
+1. Calibration
+Before running the calibration, you need to prepare a chessboard to calibrate (input your chessboard size). Then collect chessboard images. After data collection, the program will automatically generate the camera's parameters and rectified images. Check the rectified images to see if the calibration looks good. If not, run it again!
+Example command
+```bash
+python3 src/1_run_calibration.py --input_path data --checkboard_size 9,6 --square_size 0.025
+```
+
+2. Object detection + Distance measurement
+Connect to your stereo camera, make sure the inputs for cv2.VideoCapture() match your left and right camera.
+```bash
+python3 src/2_main.py
+```
