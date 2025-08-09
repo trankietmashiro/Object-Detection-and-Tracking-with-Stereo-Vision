@@ -4,7 +4,7 @@
 This project is an enhanced stereo vision system inspired by **TERBOUCHE Hacene's Stereo Calibration** work.  
 It not only calibrates and rectifies stereo camera images using OpenCV, but also integrates **YOLO-based object detection** to measure the real-world distance of detected objects.
 
-For detail explaination about stereo vision, please go to TERBOUCHE Hacene's calibration folder which https://github.com/TerboucheHacene/stereo_calibration
+For detail explaination about stereo vision, please go to Terbouche Hacene's calibration folder which https://github.com/TerboucheHacene/stereo_calibration
 
 ---
 
@@ -19,7 +19,7 @@ For detail explaination about stereo vision, please go to TERBOUCHE Hacene's cal
 
 ## System Overview
 
-1. **Stereo Calibration (From TERBOUCHE Hacene)**  
+1. **Stereo Calibration (From Terbouche Hacene)**  
    - Calibrate each camera individually using a chessboard pattern.  
    - Determine the transformation between left and right cameras.  
    - Use `stereoCalibrate` and `initUndistortRectifyMap` in OpenCV to rectify images.
