@@ -1,3 +1,6 @@
-opencv-python==4.8.1.78
+opencv-python
 numpy
+ultralytics
+deep-sort-realtime
+torch
 tqdm
