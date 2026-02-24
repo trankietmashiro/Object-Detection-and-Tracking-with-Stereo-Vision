@@ -3,7 +3,7 @@ from deep_sort_realtime.deepsort_tracker import DeepSort
 import torch
 
 YOLO_MODEL_PATH = 'yolov8n.pt'
-STEREO_CALIB_PATH = r"D:\Desktop\stereo\calib_data\params\stereo_calibration.xml"
+STEREO_CALIB_PATH = r".\calib_data\params\stereo_calibration.xml"
 FOCAL_LENGTH = 572  # pixels
 BASELINE = 0.006  # meters
 

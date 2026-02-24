@@ -1,6 +1,9 @@
-opencv-python
+# NOTE: Do NOT use plain `pip install -r requirements.txt` on Raspberry Pi 4B.
+# Run install.sh instead — PyTorch requires special ARM-compatible installation.
+
 numpy
+opencv-python-headless  # replaces opencv-python (avoids GUI/ARM build issues)
 ultralytics
 deep-sort-realtime
-torch
 tqdm
+# torch and torchvision are handled separately in install.sh
